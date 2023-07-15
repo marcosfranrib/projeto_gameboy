@@ -10,12 +10,16 @@
 
 #fundo{
     height: 100vh;
-    background-color: #2626bd;
+    background-color: #5353bd;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#container-gameboy{
+    position: relative;
+    width: 270px;
+}
 
 #topo-gameboy{
     display: flex;
@@ -42,21 +46,18 @@
 
 #topo-direita{
     border-radius: 0px 7px 4px 0px;
- 
 }
 
 #gameboy{
-    position: relative;
+
+    padding-top: 12px;
     height: 440px;
-    width: 280px;
     background-color: #e0d9d9;
     /*shorthand: topo(esquerda/direita) base(esquerda/direita)*/
     border-radius: 3px 3px 65px 12px;
 }
 
 #tela-container{
-    position: absolute;
-    top: 8%;
     width: 100%;
 }
 
@@ -139,4 +140,84 @@
     font-size: 7px;
     color: white;
 
+}
+
+#marcaNintendo{
+  
+    color: #010429;
+    padding-left: 18px;
+}
+
+strong{
+    font-size: 12px;
+}
+
+span{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+small{
+    font-style: normal;
+    font-size: 7px;
+}
+
+#joystick{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin-top: 30px;
+    background-color: blue;
+    
+}
+
+#direcionais{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vertical{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    background-color: black;
+}
+
+#horizontal{
+    
+    height: 20px;
+    width: 70px;
+    background-color: black;
+}
+
+#botoes{
+    position: relative;
+    gap: 10px;
+    width: 80px;
+    height: 70px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+#btA,#btB{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #D93B75;
+    height: 35px;
+    width: 35px;
+}
+
+#btA{
+ 
+}
+
+#btB{
+   
 }
