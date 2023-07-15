@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-gameboy{
+    height: 100vh;
+    background-color: #2626bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameboy{
+    position: relative;
+    height: 440px;
+    width: 280px;
+    background-color: #e0d9d9;
+    border-radius: 10px 10px 65px;
+}
+
+#tela-container{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+}
+
+#tela-cinza{
+    display: flex;
+    margin: auto;
+    background-color: gray;
+    height: 170px;
+    width: 220px;
+    border-radius: 10px 10px 30px;
+}
+
+#tela-verde{
+    
+    margin: auto;
+    background-color: green;
+    height: 134px;
+    width: 135px;
+    
+
+}
