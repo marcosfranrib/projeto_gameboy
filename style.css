@@ -88,7 +88,7 @@
     height: 170px;
     width: 235px;
     border-radius: 10px 10px 30px;
-
+    border: 1px solid #636060;
 }
 
 #tela-verde{
@@ -97,6 +97,7 @@
     background-color: #7cca67;
     height: 130px;
     width: 140px;
+    border: 1px solid #726f6f;
 
 }
 
