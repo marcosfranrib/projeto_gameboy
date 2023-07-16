@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@
 #topo-gameboy{
     display: flex;
     width: 100%;
-    height: 20px;
+    height: 23px;
 }
 
 #topo-esquerda,#topo-direita{
@@ -83,6 +86,10 @@
     height: 130px;
     width: 135px;
 
+}
+
+#tela-verde:hover{
+    background-color: #82ff5f;
 }
 
 #linha-red, #linha-blue,#legenda{
@@ -167,11 +174,10 @@ small{
     height: 100px;
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 80px;
-    margin-top: 30px;
-    background-color: blue;
+    gap: 25%;
+    margin-top: 30px;  
     
 }
 
@@ -181,18 +187,21 @@ small{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
+
 }
 
 #vertical{
     position: absolute;
+    border-radius: 5px;
     height: 70px;
-    width: 20px;
+    width: 25px;
     background-color: black;
 }
 
 #horizontal{
-    
-    height: 20px;
+    border-radius: 5px;
+    height: 25px;
     width: 70px;
     background-color: black;
 }
@@ -200,10 +209,10 @@ small{
 #botoes{
     position: relative;
     gap: 10px;
-    width: 80px;
-    height: 70px;
-    background-color: aliceblue;
+    width: 90px;
+    height: 100%;
     overflow: hidden;
+
 }
 
 #btA,#btB{
@@ -212,12 +221,37 @@ small{
     background-color: #D93B75;
     height: 35px;
     width: 35px;
+    z-index: 1;
+    font-size: 10px;
+    margin-left: 5px;
 }
 
 #btA{
- 
+  top: 12px;
+  left: 45px;
 }
 
 #btB{
+   top: 35px;
+}
+
+#letra-A,#letra-B{
+    position: absolute;
+    color: #010429;
+    font-size: 10px;
+    transform: rotate(-30deg);
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#letra-A{
+    top: 48px;
+    left: 70px;
    
+}
+  
+#letra-B{
+    top: 72px;
+    left: 25px;
 }
