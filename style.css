@@ -176,7 +176,7 @@ small{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25%;
+    gap: 23%;
     margin-top: 30px;  
     
 }
@@ -197,26 +197,14 @@ small{
     border-radius: 5px;
     height: 70px;
     width: 25px;
-    background-color: black;
+    background-color: #141414;
 }
 
 #horizontal{
     border-radius: 5px;
     height: 25px;
     width: 70px;
-    background-color: black;
-}
-
-#fundo-botoes{
-    background-color: #d1cbcb;
-    position: absolute;
-    left: -1px;
-    top: 22px;
-    height: 40px;
-    width: 92px;
-    transform: rotate(-26deg);
-    border-radius: 20px;
-   
+    background-color: #141414;
 }
 
 #container-botoes{
@@ -225,6 +213,19 @@ small{
     width: 90px;
     height: 100%;
     overflow: hidden;
+}
+
+
+#fundo-botoes{
+    background-color: #d1cbcb;
+    position: absolute;
+    left: -1.5px;
+    top: 20px;
+    height: 41px;
+    width: 93px;
+    transform: rotate(-27deg);
+    border-radius: 20px;
+   
 }
 
 #btA,#btB{
