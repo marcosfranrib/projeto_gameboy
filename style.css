@@ -89,7 +89,14 @@
 }
 
 #tela-verde:hover{
+    transition-property: background-color;
+    transition-duration: 0.5s;
     background-color: #82ff5f;
+}
+
+#tela-verde:not(:hover){
+    transition-property: background-color;
+    transition-duration: 0.5s;
 }
 
 #linha-red, #linha-blue,#legenda{
@@ -136,8 +143,12 @@
     height: 10px;
     width: 10px;
     margin-left: 5px;
-    background-color: #850d0d
+    background-color: #850d0d;
     
+}
+
+#simbolo-bateria:hover{
+    background-color: #aa1d1d;
 }
 
 #nome-bateria{
