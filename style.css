@@ -13,7 +13,7 @@
 
 #fundo{
     height: 100vh;
-    background-color: #5353bd;
+    background-color: #4a4acc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@
 
 }
 
-/*
+
 #tela-verde:hover{
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -99,7 +99,7 @@
     transition-property: background-color;
     transition-duration: 0.5s;
 }
-*/
+
 #linha-red, #linha-blue,#legenda{
    position: absolute;
    width: 85%;
@@ -213,7 +213,6 @@ small{
     width: 25px;
     background-color: #141414;
 }
-
 
 #vertical-fundo{
     position: absolute;
