@@ -238,6 +238,10 @@ small{
     margin-left: 5px;
 }
 
+#btA:hover,#btB:hover{
+    background-color:#b32257 ;
+}
+
 #btA{
   top: 12px;
   left: 45px;
