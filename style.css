@@ -13,7 +13,7 @@
 
 #fundo{
     height: 100vh;
-    background-color: #4a4acc;
+    background-image: linear-gradient(to bottom,#BD4E41,#D4684F,#E88C59);
     display: flex;
     justify-content: center;
     align-items: center;
