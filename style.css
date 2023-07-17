@@ -12,44 +12,45 @@
 }
 
 #fundo{
-    height: 100vh;
-    background-image: linear-gradient(to bottom,#BD4E41,#D4684F,#E88C59);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#BD4E41,#D4684F,#E88C59);
+    
 }
 
 #container-gameboy{
     position: relative;
     width: 285px;
+
 }
 
 #topo-gameboy{
     display: flex;
-    width: 100%;
     height: 23px;
+    width: 100%;   
     
 }
 
 #topo-esquerda,#topo-direita{
-
+    width: 20px;
+    background-color:#e0d9d9;
     border-bottom: 2px solid #aca9accc;
     border-radius: 7px 0px 0px 2px;
-    width: 20px;
-    background-color:#e0d9d9;  
-
+   
 }
 
 #topo-esquerda{
     box-shadow: inset 4px -4px 15px 2px #aca9ac;
+
 }
 
 #topo-meio{
-    
+    width: 86%;
+    background-color:#dad4d4;
     border:3px solid #beb9b9fd;
     border-top: 0px;
-    background-color:#dad4d4;
-    width: 86%;
     box-shadow: inset 0px 5px 22px 0px #bfbbbf;
     
 }
@@ -61,9 +62,8 @@
 }
 
 #gameboy{
-
-    padding-top: 12px;
     height: 470px;
+    padding-top: 12px;
     background-color: #e0d9d9;
     /*shorthand: topo(esquerda/direita) base(esquerda/direita)*/
     border-radius: 3px 3px 65px 12px;
@@ -77,26 +77,26 @@
 }
 
 #tela-cinza{
-
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color:#7B9099;
+    margin: auto;
     height: 170px;
     width: 235px;
+    background-color:#7B9099;
     border-radius: 10px 10px 30px;
     border: 1px solid #636060;
+
 }
 
 #tela-verde{
     z-index: 1;
-    margin-top: 7px;
-    background-color: #7cca67;
     height: 130px;
     width: 140px;
+    margin-top: 7px;
+    background-color: #7cca67;
     border: 1px solid #726f6f;
 
 }
@@ -114,26 +114,26 @@
 }
 
 #linha-red, #linha-blue,#legenda{
-   position: absolute;
-   width: 85%;
-   border-top: 2px solid #b1285ada;  
-   top: 8px;
+    position: absolute;
+    width: 85%;
+    top: 8px;
+    border-top: 2px solid #b1285ada;  
+  
 }
 
 #linha-blue{
-    border-top: 2px solid #1010b4cc; 
     top: 14px; 
+    border-top: 2px solid #1010b4cc; 
 }
 
 #legenda{
-
     z-index: 1;
-    top: 8px;
-    left: 103px;
     height: 9px;
     width: 86px;
-    border-top: 0px;
+    top: 8px;
+    left: 103px;
     background-color:#7B9099;
+    border-top: 0px;
     text-align: center;
     padding-top: 1px;
     color: white; 
@@ -141,23 +141,22 @@
 }
 
 #container-bateria{
-    position: absolute;
     display: flex;
     flex-direction: column;
+    position: absolute;
     height: 70px;
     width: 100%;
-    padding-left: 10px;
     gap: 5px;
+    padding-left: 10px;
     
 }
 
 #simbolo-bateria{
-
-    border-radius: 50%;
     height: 10px;
     width: 10px;
     margin-left: 5px;
     background-color: #850d0d;
+    border-radius: 50%;
     
 }
 
@@ -166,7 +165,6 @@
 }
 
 #nome-bateria{
-
     height: 10px;
     width: 10px;
     font-size: 7px;
@@ -175,13 +173,14 @@
 }
 
 #marcaNintendo{
-  
-    color: #010429;
     padding-left: 24.5px;
+    color: #010429;
+  
 }
 
 strong{
     font-size: 12px;
+
 }
 
 span{
@@ -191,27 +190,28 @@ span{
 }
 
 small{
-    font-style: normal;
     font-size: 7px;
+    font-style: normal;
+    
 }
 
 #joystick{
-    height: 100px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+    width: 100%;
     gap: 25%;
     margin-top: 37px;  
       
 }
 
 #direcionais{
-    width: 80px;
-    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80px;
+    height: 80px;
     margin-left: 5px;
     border-radius: 50%;
     background-color: #d1cbcb;
@@ -219,68 +219,67 @@ small{
 }
 
 #vertical{
-    position: absolute;
     z-index: 1;
-    border-radius: 5px;
+    position: absolute;
     height: 70px;
     width: 25px;
+    border-radius: 5px;
     background-color: #141414;
 }
 
 #vertical-fundo{
     position: absolute;
-    border-radius: 5px;
     height: 70px;
     width: 25px;
     background-color: #141414;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px #585353;
 }
 
 #horizontal{
-    
     z-index: 0;
-    border-radius: 5px;
     height: 25px;
     width: 70px;
     background-color: #141414;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px #585353;
 }
 
 .grid{
-    background-color: white;
     height: 100%;
+    background-color: white;
 }
 
 #container-botoes{
     position: relative;
-    gap: 10px;
-    width: 90px;
-    height: 100%;
     overflow: hidden;
+    height: 100%;
+    width: 90px;
+    gap: 10px;
 }
 
 
 #fundo-botoes{
-    background-color: #d1cbcb;
     position: absolute;
-    left: -1.5px;
-    top: 20px;
     height: 41px;
     width: 93px;
-    transform: rotate(-27deg);
+    top: 20px;
+    left: -1.5px;
+    background-color: #d1cbcb;
     border-radius: 20px;
+    transform: rotate(-27deg);
    
 }
 
 #btA,#btB{
+    z-index: 1;
     position: absolute;
-    border-radius: 50%;
-    background-color: #D93B75;
     height: 35px;
     width: 35px;
-    z-index: 1;
-    font-size: 10px;
+    background-color: #D93B75;
+    border-radius: 50%;
     margin-left: 5px;
+    font-size: 10px;
     box-shadow: 1px 1px 1px #585353;
 }
 
@@ -289,22 +288,22 @@ small{
 }
 
 #btA{
-  top: 12px;
-  left: 45px;
+    top: 12px;
+    left: 45px;
 }
 
 #btB{
-   top: 35px;
+    top: 35px;
 }
 
 #letra-A,#letra-B{
     position: absolute;
-    color: #010429;
-    font-size: 10px;
-    transform: rotate(-30deg);
-    font-family: 'Audiowide', cursive;
     font-weight: bold;
+    font-size: 10px;
+    font-family: 'Audiowide', cursive;
+    color: #010429;
     margin-left: 5px;
+    transform: rotate(-30deg);
 }
 
 #letra-A{
@@ -320,20 +319,19 @@ small{
 
 #container-select-start{
     position: relative;
-    margin: auto;
     display: flex;
-    padding-top: 25px;
-    gap: 15px;
+    margin: auto;
     height: 80px;
     width: 130px;
+    gap: 15px;
+    padding-top: 25px;
  }
 
 #botao-select,#botao-start{
-
-    background-color: #b3abab;
-    border-radius: 20px;
     height: 10.5px;
     width: 45px;
+    background-color: #b3abab;
+    border-radius: 20px;
     transform: rotate(-27deg);
     box-shadow: 1px 1px 1px #585353;
 
@@ -341,24 +339,25 @@ small{
 
 #botao-select:hover,#botao-start:hover{
     background-color: #888383;
+
 }
 
 #legenda-select,#legenda-start{
     position: absolute;
-    transform: rotate(-27deg);
     font-family: 'Audiowide', cursive;
     font-size: 10px;
+    transform: rotate(-27deg);
 }
 
 #legenda-select{
-  top: 36px;
-  left: 8px;   
+    top: 36px;
+    left: 8px;   
 
 }
 
 #legenda-start{
-  top: 36px;
-  left: 72px;
+    top: 36px;
+    left: 72px;
 
 }
 
@@ -374,10 +373,10 @@ small{
 
 #som01,#som02,#som03,#som04,#som05,#som06{
     position: absolute;
-    background-color: #bfbbbf8f;
-    border-radius: 20px;
     height: 5px;
     width: 50px;
+    background-color: #bfbbbf8f;
+    border-radius: 20px;
     transform: rotate(63deg);
     
 }
