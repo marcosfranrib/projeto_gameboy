@@ -271,7 +271,7 @@ small{
    
 }
 
-#btA,#btB{
+#botao-A,#botao-B{
     z-index: 1;
     position: absolute;
     height: 35px;
@@ -283,16 +283,16 @@ small{
     box-shadow: 1px 1px 1px #585353;
 }
 
-#btA:hover,#btB:hover{
+#botap-A:hover,#botao-B:hover{
     background-color:#b32257 ;
 }
 
-#btA{
+#botao-A{
     top: 12px;
     left: 45px;
 }
 
-#btB{
+#botao-B{
     top: 35px;
 }
 
